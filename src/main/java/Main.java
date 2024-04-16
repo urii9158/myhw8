@@ -9,6 +9,7 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
 
+        post.birthday = new FormDate();
         post.birthday.day = 13;
         post.birthday.mouth = 6;
         post.birthday.year = 1999;
